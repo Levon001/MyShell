@@ -1,5 +1,4 @@
 ## Simple Shell Program
-![Shell Program](shell_program.png)
 This is a simple shell program that allows you to execute system calls and built-in shell commands. It provides features like command history navigation using arrow keys, displays the current working directory in the prompt, and supports file compilation and execution, including the ability to compile and run itself. Additionally, it can handle pipes (`|`), output redirection (`>>` and `>`), create and delete files and directories.
 ## Features
 - Execute system calls and built-in shell commands.
