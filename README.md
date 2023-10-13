@@ -47,7 +47,7 @@ To compile and run the code, follow these steps:
    First, you need to clone the repository to your local machine. Use the following command:
 
    ```bash
-   git clone [URL_OF_YOUR_REPOSITORY]
+   git clone https://github.com/Levon001/MyShell.git
    ```
 
 ## **Compilation**:
