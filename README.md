@@ -42,7 +42,7 @@ This is a simple shell program implemented in C. It allows you to execute system
 
 To compile and run the code, follow these steps:
 
-1. **Compilation**:
+## **Compilation**:
    ```bash 
    make
    ```
