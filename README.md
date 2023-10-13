@@ -66,3 +66,6 @@ After you are done using the program, you can clean up the compiled files with t
 ```bash
 make clean
 ```
+
+## More about this project you can learn following to this link:
+https://medium.com/@levsyan22/building-your-own-shell-with-c-62c47c076c68
