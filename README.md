@@ -45,12 +45,16 @@ To compile and run the code, follow these steps:
 1. **Compilation**:
    ```bash 
    make
+   ```
+   
+   
 ## Run the Program:
-
-```bash
-./myshell
+  ```bash 
+   ./myshell
+   ```
 
 ## Cleanup:
 After you are done using the program, you can clean up the compiled files with the following command:
-``bash
+```bash
 make clean
+```
