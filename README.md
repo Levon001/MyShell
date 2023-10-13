@@ -1,62 +1,57 @@
-## Simple Shell Program
-This is a simple shell program that allows you to execute system calls and built-in shell commands. It provides features like command history navigation using arrow keys, displays the current working directory in the prompt, and supports file compilation and execution, including the ability to compile and run itself. Additionally, it can handle pipes (`|`), output redirection (`>>` and `>`), create and delete files and directories.
-## Features
-- Execute system calls and built-in shell commands.
-- Command history navigation using arrow keys.
-- Display current working directory in the prompt.
-- Compile and execute files, including self-execution.
-- Handle pipes (`|`) for command chaining.
-- Output redirection (`>>` and `>`) for file output.
-- Create and delete files and directories.
-## Usage
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/yourusername/simple-shell.git
-   ```
-2. Compile the shell program.
-   ```bash
-   make
-   ```
-3. Run the shell.
-   ```bash
-   ./myshell
-   ```
-4. Use the shell to execute commands and take advantage of the features mentioned above.
-## Command Examples
-- Execute a system command:
-  ```bash
-  $ ls -l
-  ```
-- Use built-in commands:
-  ```bash
-  $ cd /path/to/directory
-  $ mkdir new_folder
-  $ touch new_file.txt
-  ```
-- Navigate command history:
-  Use the arrow keys (Up and Down) to navigate through previously executed commands.
-- Compile and run a C program:
-  ```bash
-  $ gcc hello.c -o hello
-  $ ./hello
-  ```
-- Pipe commands:
-  ```bash
-  $ ls -l | grep "example"
-  ```
-- Redirect output to a file:
-  ```bash
-  $ ls -l > file_list.txt
-  ```
-- Append output to a file:
-  ```bash
-  $ echo "Additional data" >> file_list.txt
-  ```
-- Delete a file or directory:
-  ```bash
-  $ rm file.txt
-  $ rmdir empty_directory
-  ```
-## Contributors
-- Your Name (Your Email)
-- Other contributors (if any)
+Simple Shell Project in C
+Introduction
+This is a simple shell program implemented in C. It allows you to execute system calls and built-in shell commands. With an intuitive interface, users can easily navigate command history using arrow keys, view the current working directory in the prompt, and enjoy other features. A unique characteristic of this shell is that it can compile and run itself, supporting a variety of tasks from file compilation to output redirection.
+
+Features
+Command history navigation using arrow keys.
+Display of the current working directory in the prompt.
+Support for file compilation and execution.
+Ability to compile and run itself.
+Handles pipes (|).
+Output redirection (>> and >).
+Create and delete files and directories.
+Supported Commands
+php
+Copy code
+List of supported commands:
+----------------------------
+cd <dir>           : Change the current directory to <dir>
+ls                 : List the contents of the current directory
+exit               : Exit the shell
+mkdir <dir>        : Create a directory named <dir>
+touch <file>       : Create a file named <file>
+find <pattern>     : Search for files and directories matching <pattern>
+grep <pattern> <file> : Search for <pattern> within <file>
+redirect           : Redirect command output (use > or >>)
+cat <file>         : Display the contents of <file>
+less <file>        : View <file> with pagination
+nano <file>        : Edit <file> using nano text editor
+top                : Display system processes in real time
+clear              : Clear the terminal screen
+rm <file>          : Remove <file>
+rm -r <dir>        : Recursively remove <dir> and its contents
+rm -rf <dir>       : Forcefully and recursively remove <dir> and its contents
+rmdir <dir>        : Remove an empty directory named <dir>
+ps                 : Display currently running processes
+ps -aux            : Display detailed information about all running processes
+echo <text>        : Print <text> to the terminal
+help               : Display this help message
+Installation and Usage
+Clone the repository (if applicable) and navigate to the project directory.
+
+Compile the program using the make command.
+
+go
+Copy code
+make
+Run the shell:
+
+bash
+Copy code
+./myshell
+After using the program, clean up compiled files:
+
+go
+Copy code
+make clean
+That should give a clear overview and instructions for anyone wanting to use your simple shell!
