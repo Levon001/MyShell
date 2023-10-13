@@ -15,11 +15,11 @@ This is a simple shell program that allows you to execute system calls and built
    ```
 2. Compile the shell program.
    ```bash
-   gcc -o simple-shell simple-shell.c
+   make
    ```
 3. Run the shell.
    ```bash
-   ./simple-shell
+   ./myshell
    ```
 4. Use the shell to execute commands and take advantage of the features mentioned above.
 ## Command Examples
