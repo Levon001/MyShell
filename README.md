@@ -42,6 +42,14 @@ This is a simple shell program implemented in C. It allows you to execute system
 
 To compile and run the code, follow these steps:
 
+1. **Clone the Repository**:
+   
+   First, you need to clone the repository to your local machine. Use the following command:
+
+   ```bash
+   git clone [URL_OF_YOUR_REPOSITORY]
+   ```
+
 ## **Compilation**:
    ```bash 
    make
